@@ -1,6 +1,6 @@
 repo init -u https://github.com/LineageOS/android.git -b lineage-23.0 --git-lfs
-git clone https://github.com/Evolution-X-Devices/kernel_oneplus_msm8998 -b bka
-git clone https://github.com/Evolution-X-Devices/device_oneplus_msm8998-common -b bka
-git clone https://github.com/Evolution-X-Devices/device_oneplus_dumpling -b bka
-git clone https://github.com/Evolution-X-Devices/vendor_oneplus_dumpling -b bka
-git clone https://github.com/Evolution-X-Devices/vendor_oneplus_msm8998-common -b bka
+git clone https://github.com/Evolution-X-Devices/kernel_oneplus_msm8998 kernel/oneplus/msm8998 -b bka
+git clone https://github.com/Evolution-X-Devices/device_oneplus_msm8998-common device/oneplus/msm8998-common -b bka
+git clone https://github.com/Evolution-X-Devices/device_oneplus_dumpling device/oneplus/dumpling -b bka
+git clone https://github.com/Evolution-X-Devices/vendor_oneplus_dumpling vendor/oneplus/dumpling -b bka
+git clone https://github.com/Evolution-X-Devices/vendor_oneplus_msm8998-common vendor/oneplus/msm8998-common -b bka
